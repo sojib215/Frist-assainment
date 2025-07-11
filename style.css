@@ -47,7 +47,7 @@ nav{
   text-align: center;
  }
 .header{
-  background-image: url("/Assets/Hero-bg.png");
+  background-image: url("Assets/Hero-bg.png");
   
 }
 .banner{

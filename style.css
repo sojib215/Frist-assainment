@@ -1,15 +1,11 @@
 .inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 
@@ -51,11 +47,16 @@ nav{
   text-align: center;
  }
 .header{
-  background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+  background-image: url("/Assets/Hero-bg.png");
   
 }
 .banner{
-  padding: 0 0 150px 0 ;
+  /* padding: 0 0 150px 0 ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
 }
 main{
   max-width: 1140px;
@@ -234,4 +235,14 @@ form input{
 form textarea{
   border-color:rgba(128, 128, 128, 0.171) ;
   border-radius:10px ;
+}
+footer{
+  margin-top: 14px;
+}
+
+.footer-title{
+  font-size: 100px;
+  color:#4E47FF ;
+  text-align: center;
+  padding: 104px 570px 203px 570px;
 }

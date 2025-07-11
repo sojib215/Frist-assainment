@@ -244,5 +244,25 @@ footer{
   font-size: 100px;
   color:#4E47FF ;
   text-align: center;
-  padding: 104px 570px 203px 570px;
+  padding: 104px 570px 0px 570px;
+}
+.footer-description{
+  text-align: center;
+  color: #8987A1;
+ justify-content: center;
+}
+.footer-menu ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.footer-menu li a {
+  text-decoration: none;
+}
+.dark-2{
+  color: #8987A1;
+}
+.footer-links{
+  display: flex;
+  gap: 48px;
+  justify-content: center;
 }
